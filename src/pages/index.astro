@@ -1,0 +1,77 @@
+---
+import Navigation from "../components/Navigation.astro";
+import Footer from "../components/Footer.astro";
+import Hero from "../components/Hero.astro";
+---
+
+<html lang="cs" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Ano Nebo Ne Generátor</title>
+    <meta property="og:title" content="Ano Nebo Ne Generátor" />
+    <meta
+      name="description"
+      content="Generátor ano a ne je jednoduchý a snadno použitelný online nástroj, který vám může pomoci, kdykoli máte pochybnosti. Použijte tento generátor ano nebo ne, kdykoli budete v dilematu a nemůžete se rozhodnout, co si vybrat."
+    />
+    <meta
+      property="og:description"
+      content="Generátor ano a ne je jednoduchý a snadno použitelný online nástroj, který vám může pomoci, kdykoli máte pochybnosti. Použijte tento generátor ano nebo ne, kdykoli budete v dilematu a nemůžete se rozhodnout, co si vybrat."
+    />
+    <meta property="og:image" content="#" />
+    <meta property="og:image:alt" content="Ano Nebo Ne Generátor" />
+    <meta property="og:site_name" content="Ano Nebo Ne Generátor" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ano-nebo-ne.bodh.me/" />
+    <link rel="alternate" hreflang="en" href="https://bodh.me/yes-no-button/" />
+    <link rel="alternate" hreflang="nl" href="https://ja-of-nee.bodh.me/" />
+
+    <meta
+      name="keywords"
+      content="ano nebo ne, ano ne, generátor ano ne, ano ne generátor, ano nebo ne generátor, ruleta ano ne, generator ano ne, generátor ano ne, ano/ne generator"
+    />
+    <meta name="author" content="Niraj Kumar" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+
+      body {
+        font-family: "Poppins", Arial, Helvetica, sans-serif;
+        overflow-x: hidden;
+      }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WMRNK6QL2Q"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-WMRNK6QL2Q");
+    </script>
+  </head>
+  <body>
+    <Navigation />
+    <Hero />
+    <Footer />
+
+    <script>
+      import "../scripts/AnoNeboNe.js";
+    </script>
+  </body>
+</html>
